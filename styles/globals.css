@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #02304b;
+  background-image: linear-gradient(130deg, #00253a 0%, #480142 90%);  
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Poppins';
+}
+
+.poppins {
+  font-family: 'Poppins';
+}
+
+.bebas {
+  font-family: 'Bebas Neue';
+}
+
+.staatlich {
+  font-family: 'Staatliches';
+}
+
+.montserrat {
+  font-family: 'Montserrat';
+}
+
+.edu {
+  font-family: 'Edu VIC WA NT Beginner'
+}
+
+.comic {
+  font-family: 'Comic Neue';
+}
+
+.animate .fadeInLeft,
+.animate .fadeInRight {
+  left: 0;
+  transform: translate(0, 0);
+  opacity: 1;
+  transition: all 0.8s ease-out;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
